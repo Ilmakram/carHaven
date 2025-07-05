@@ -35,4 +35,10 @@ It allows fleet operators to manage vehicles, onboard customers, process rentals
 
 ---
 
+## 🏗 Architecture (MVC)
+This project follows the MVC pattern:
+- **Model:** Java classes (`Car`, `Customer`, `Rental`) + `DatabaseManager` for data and database logic.
+- **View:** `ConsoleView` handles input/output, menus, and displays.
+- **Controller:** `CarRentalController` processes user input, updates models, and tells the view what to display.
+
 
